@@ -1,0 +1,487 @@
+.side-menu {
+  position: fixed;
+  z-index: 999;
+  overflow: auto;
+  width: 183px;
+  height: 100%;
+  padding: 30px 20px 20px;
+  background-color: #fff;
+  box-shadow: 6px 6px 34px -13px rgba(0, 0, 0, .7);
+  text-align: left;
+}
+
+.body {
+  height: 100%;
+}
+
+.section-all {
+  margin-left: 180px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24px;
+}
+
+.section-all:hover {
+  text-decoration: none;
+}
+
+.section-all.header {
+  overflow: hidden;
+  height: auto;
+  margin-left: 180px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #fff;
+}
+
+.section-all.drama {
+  background-color: #555;
+  color: #fff;
+}
+
+.section-all.equipe {
+  background-color: #ececec;
+  text-align: center;
+}
+
+.section-all.desafio {
+  display: block;
+}
+
+.section-all.invert-colors {
+  background-color: #555;
+  color: #fff;
+}
+
+.section-all.lider.sec-02 {
+  background-color: #707070;
+  color: #fff;
+}
+
+.section-title {
+  font-family: Oswald, sans-serif;
+  color: #707070;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-title.title-02 {
+  color: #fff;
+  font-size: 37px;
+}
+
+.subtitle-section {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px dotted #707070;
+  border-bottom: 1px dotted #707070;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+}
+
+.subtitle-section.subtitle-invert {
+  border-color: #fff;
+}
+
+.list-menu {
+  padding-left: 20px;
+  font-family: Oswald, sans-serif;
+  color: #707070;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.itens-menu {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.itens-menu.inactive {
+  display: block;
+  overflow: visible;
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.itens-menu.recent {
+  color: #fa8f35;
+}
+
+.itens-menu.lock {
+  display: block;
+  cursor: not-allowed;
+}
+
+/*.itens-menu.last {
+  color: #ee8500;
+}*/
+
+.img-abre {
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  border: 10px solid #fff;
+  box-shadow: 2px 2px 13px 0 rgba(0, 0, 0, .3);
+}
+
+.img-text {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 7px solid #fff;
+  box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, .2);
+}
+
+.img-text.left {
+  margin-right: 20px;
+  margin-left: -51px;
+  float: left;
+  -webkit-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.img-text.right {
+  margin-left: 10px;
+  float: right;
+  -webkit-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+.thinglink {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.videos {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  border: 7px solid #fff;
+  box-shadow: 1px 1px 16px 0 rgba(0, 0, 0, .7);
+  color: #333;
+}
+
+.videos.row-videos {
+  box-shadow: none;
+}
+
+.videos.video2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.subtitle-equipe {
+  text-transform: uppercase;
+}
+
+.container {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.btn-menu {
+  position: fixed;
+  z-index: 999;
+  display: none;
+}
+
+.img-side-menu {
+  display: block;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+}
+
+.hide {
+  display: none;
+}
+
+.link-txt {
+  padding: 5px;
+  border-radius: 10px;
+  color: #fa8f35;
+  text-decoration: none;
+}
+
+.slider {
+  height: auto;
+  padding: 10px 40px 45px;
+  background-color: #fff;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, .33);
+  text-align: center;
+}
+
+.content-slide {
+  padding-top: 0px;
+}
+
+.link-slider {
+  text-decoration: none;
+}
+
+.link-slider:hover {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.title-slider {
+  color: #333;
+}
+
+.text-slider {
+  color: #333;
+}
+
+.img-slider {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.arrow {
+  color: #333;
+}
+
+.arrow-area.right {
+  margin-right: -65px;
+}
+
+.arrow-area.left {
+  margin-left: -65px;
+}
+
+.selo-img {
+  display: block;
+  width: 820px;
+  height: 547px;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-left: auto;
+  float: none;
+  background-color: transparent;
+}
+
+.mapa {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  background-color: #000;
+}
+
+.tit-video {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+}
+
+.legenda {
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  text-align: center;
+  font-style: italic;
+}
+
+@media (max-width: 991px) {
+  .section-all.header {
+    height: auto;
+    margin-left: 180px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-all.header {
+    height: auto;
+  }
+}
+
+@media (max-width: 479px) {
+  .side-menu {
+    z-index: 9999;
+    overflow: auto;
+    width: 130px;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .body {
+    height: 100%;
+  }
+  .section-all {
+    margin-left: 0px;
+  }
+  .section-all.header {
+    max-height: 180px;
+    min-height: 0px;
+    margin-left: 0px;
+  }
+  .section-all.sec-avanco {
+    margin-left: 0px;
+  }
+  .list-menu {
+    padding-left: 20px;
+  }
+  .itens-menu {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 11px;
+  }
+  .img-text.left {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    float: none;
+  }
+  .img-text.right {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    float: none;
+  }
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .btn-menu {
+    position: fixed;
+    left: 20px;
+    top: 80px;
+    z-index: 999;
+    display: block;
+    overflow: visible;
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    background-color: #fff;
+  }
+  .img-side-menu {
+    display: block;
+    width: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+ @font-face {
+        font-family: 'Stag';
+        src: url('https://raw.githubusercontent.com/Fato-Online/2016_02_17-invasao/master/fonts/Stag-LightItalic.eot');
+        src: url('https://raw.githubusercontent.com/Fato-Online/2016_02_17-invasao/master/fonts/Stag-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/Fato-Online/2016_02_17-invasao/master/fonts/Stag-LightItalic.svg') format('svg'),
+        url('https://raw.githubusercontent.com/Fato-Online/2016_02_17-invasao/master/fonts/Stag-LightItalic.woff') format('woff'),
+        url('https://raw.githubusercontent.com/Fato-Online/2016_02_17-invasao/master/fonts/Stag-LightItalic.ttf') format('truetype');
+        font-weight: 300;
+        font-style: italic;
+    }
+        .menu-header {
+            top: -59px ;
+            left: 0 ;
+            z-index: 9999 ;
+            width: 100% ;
+            position:absolute ;
+            transition: all 0.5s ease ;
+            font: italic 300 32px/34px 'Stag', Arial, Verdana, Helvetica, sans-serif !important;
+        }
+
+        a#menu-close {
+            display: none;
+        }
+
+        #hotsite .bg-color {
+            background-color: #f1f1f1;
+            height: 60px !important;
+            text-align: center;
+        }
+
+        #hotsite .menu {
+            margin: 0 auto;
+            padding: 10px 0 10px 0px;
+
+        }
+
+        #hotsite .menu-items {
+            padding-left: 0px !important;
+        }
+
+        #hotsite li{
+            display: inline;
+            margin-right: 15px;
+            font-size: 25px !important;
+        }
+
+        #hotsite .mg-fix {
+            margin-right: 0px;
+        }
+
+        #hotsite a:link {
+            text-decoration: none;
+        }
+
+        #politica a{
+            color:#ee2c00;
+        }
+
+        #economia a{
+            color:#56bf2c;
+        }
+
+        #brasilia a{
+            color:#4ed3ea;
+        }
+
+        #esporte a{
+            color:#2980b9;
+        }
+
+        #tv-fato a{
+            color:#212121;
+        }
+
+        #hotsite .ico-menu {
+            width: 50px;
+            height: 50px;
+            margin: 15px 20px 0px 0px;
+            padding: 8px 0px 8px 9px;
+            background: #e0a50f;
+            float: right;
+            border-radius: 25px;
+        }
+
+  #hotsite .ico-menu a{
+    color: #222;
+  }
+
+        #hotsite img {
+            width: 39px;
+            padding: 16px 4px 0px 16px;
+            vertical-align: inherit;
+        }
